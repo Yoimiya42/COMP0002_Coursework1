@@ -45,6 +45,6 @@ Up(North), Right(East), Down(South), Left(West), respectively.
   - the start position and orientation of robot
   - the position of home
 
-- Algorithms simliar to DFS and A*
-- Gradient colours are uesd to represent the path traversed by the robot. 
+-Algorithms simliar to DFS and A*
+-Gradient colours are uesd to represent the path traversed by the robot. 
 
