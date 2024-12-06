@@ -20,19 +20,19 @@ To run:
 
 ## Essential Files:
 
--`arena.c`: 
+-`arena.c`:  
 It includes all functions related to drawing, covering both the items to be drawn and the specific algorithms for the drawing process.
 
 Additionally, it initialised fundamental information for the arena, such as the random numbers of tiles, which tile is wall and which tile is obstacle or marker... 
 
 -`robot.c`:
 All functions related to the robot's behaviours are contained within this file.
-Two very important functions go() and goHome() integrate and organize all the other functions, respectively enabling the complete processes of collecting markers and returning to home.
+Two very important functions `go()` and `goHome()` integrate and organize all the other functions, respectively enabling the complete processes of collecting markers and returning to home.
 
--`main.c`
-It only contains main() function which serves as the entry point of the program.
+-`main.c`:  
+It only contains `main()` function which serves as the entry point of the program.
 
--`0.png`, `1.png`, `2.png`,`3.png`
+-`0.png`, `1.png`, `2.png`,`3.png`:  
 They are used to draw the robot in four different orientations:
 Up(North), Right(East), Down(South), Left(West), respectively.
 
