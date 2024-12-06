@@ -9,9 +9,13 @@ NOTE: The total runtime is around 1 minute,depending on the arena's size and the
 ## Complication and running the program:
 
 To complie, you should enter the following command:
--`gcc -o robot main.c robot.c arena.c graphics.c`
+```
+gcc -o robot main.c robot.c arena.c graphics.c
+```
 To run:
--`./robot.exe | java -jar drawapp-4.0.jar`
+```
+./robot.exe | java -jar drawapp-4.0.jar
+```
 
 
 ## Essential Files:
