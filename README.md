@@ -21,11 +21,9 @@ To run:
 ## Essential Files:
 
 -`arena.c`:  
-It includes all functions related to drawing, covering both the items to be drawn and the specific algorithms for the drawing process.
+It includes all functions related to drawing, covering both the items to be drawn and the specific algorithms for the drawing process.Additionally, it initialised fundamental information for the arena, such as the random numbers of tiles, which tile is wall and which tile is obstacle or marker... 
 
-Additionally, it initialised fundamental information for the arena, such as the random numbers of tiles, which tile is wall and which tile is obstacle or marker... 
-
--`robot.c`:
+-`robot.c`:  
 All functions related to the robot's behaviours are contained within this file.
 Two very important functions `go()` and `goHome()` integrate and organize all the other functions, respectively enabling the complete processes of collecting markers and returning to home.
 
