@@ -46,5 +46,6 @@ Up(North), Right(East), Down(South), Left(West), respectively.
   - the position of home
 
 -Algorithms simliar to DFS and A*
+
 -Gradient colours are uesd to represent the path traversed by the robot. 
 
