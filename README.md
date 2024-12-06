@@ -6,7 +6,7 @@ and the program can compile and running smoothly in my Windows 11 system laptop.
 NOTE: The total runtime is around 1 minute,depending on the arena's size and the complexity of the obstacles. Thank you for your patience and understanding.
 
 
-# Complication and running the program:
+## Complication and running the program:
 
 To complie, you should enter the following command:
 -`gcc -o robot main.c robot.c arena.c graphics.c`
@@ -14,7 +14,7 @@ To run:
 -`./robot.exe | java -jar drawapp-4.0.jar`
 
 
-# Essential Files:
+## Essential Files:
 
 -`arena.c`: 
 It includes all functions related to drawing, covering both the items to be drawn and the specific algorithms for the drawing process.
@@ -33,7 +33,7 @@ They are used to draw the robot in four different orientations:
 Up(North), Right(East), Down(South), Left(West), respectively.
 
 
-# Features:
+## Features:
 -High Randomness. The following tiems are all randomly generated, with substantial variation in each run:
   - the number of tiles in rows and columns
   - irregular walls
